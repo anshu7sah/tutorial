@@ -30,6 +30,8 @@ fetch("https://google.com", {
     console.log(e);
   });
 
+console.log("he is very good");
+
 async function fetchingDatqa() {
   const data = await fetch("https://google.com");
   return data;
